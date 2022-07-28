@@ -1,0 +1,94 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Exo;
+    scroll-behavior: smooth;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/peoples2.jpg");
+  height: 90%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+        .hero-image2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/div2.jpg");
+  height: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  padding: 25%;
+    padding-top: 15%;
+  color: white;
+}
+
+.hero-text button {
+    border-bottom: 4px solid #454443;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    outline: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #34eb3a;
+    text-align: center;
+    cursor: pointer;
+}
+.xbutton
+        {
+    border-bottom: 4px solid #454443;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    outline: inherit;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+        }
+.green
+        {
+         background-color: #34eb3a;
+            color: #fff;
+        }
+.gray
+        {
+         background-color: #eee; 
+        color: #000;
+        }
+.do
+        {
+            background: url("project7-img/crumpled-paper-background.jpg");
+            background-position: center center;
+             background-repeat: no-repeat;
+          background-size: cover;
+        }
+.last-background
+        {
+            background: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg");
+            background-position: center center;
+             background-repeat: no-repeat;
+          background-size: cover;
+        }
+.image-float
+        {
+            width="220px" 
+            height="200px" 
+        
+        }
+        .navigation{
+        position: fixed;
+            width: 100%;
+            z-index: 1;
+
+        }
